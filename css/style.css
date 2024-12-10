@@ -8186,7 +8186,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-brand {
     color: #fff; }
     .ftco-navbar-light .navbar-brand span {
-      color: #f5e4c3; }
+      color: #01f1c7; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
@@ -8330,7 +8330,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .6;
-    background: #2f89fc; }
+    background: #7b8481; }
   .hero-wrap .slider-text {
     color: #fff;
     height: 750px; }
@@ -8445,7 +8445,7 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         left: 0;
         right: 0;
-        background: #2f89fc;
+        background:#7b8481;
         opacity: .6; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 800px;
@@ -8468,7 +8468,7 @@ h1, h2, h3, h4, h5,
           font-family: "Nunito Sans", Arial, sans-serif;
           font-weight: 700;
           color: white;
-          color: #f5e4c3;
+          color: #01f1c7;;
           display: inline-block;
           position: relative;
           letter-spacing: 4px; }
@@ -8892,7 +8892,7 @@ h1, h2, h3, h4, h5,
         color: #000000; }
     .room-wrap .text span.price {
       font-size: 26px;
-      color: #2f89fc;
+      color: #2f07fd;
       position: relative; }
     .room-wrap .text span.per {
       font-size: 14px;
@@ -9129,7 +9129,7 @@ h1, h2, h3, h4, h5,
         display: none; } }
 
 .aside-stretch-2 {
-  background: #2f89fc; }
+  background: #01f1c7; }
   .aside-stretch-2:after {
     position: absolute;
     top: 0;
@@ -9137,7 +9137,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     width: 360%;
-    background: #2f89fc; }
+    background: #01f1c7; }
   @media (max-width: 767.98px) {
     .aside-stretch-2 {
       background: transparent; }
@@ -9211,7 +9211,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
-  background: #2f89fc;
+  background: #7b8481;
   position: relative; }
   .ftco-footer .overlay {
     position: absolute;
@@ -9221,7 +9221,7 @@ textarea.form-control {
     bottom: 0;
     content: '';
     opacity: .9;
-    background: #2f89fc; }
+    background: #7b8481; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -9351,7 +9351,7 @@ textarea.form-control {
   font-size: 13px;
   display: block;
   margin-bottom: 5px;
-  color: #21cc7a;
+  color: #01f1c7;;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700; }
@@ -10085,3 +10085,36 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    .star span {
+      display: inline-block;
+      font-size: 24px; /* Adjust size as needed */
+      color: #2f07fd; /* Star color */
+      animation: twinkle 1.5s infinite ease-in-out;
+    }
+    
+    .star span:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .star span:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+    .star span:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+    .star span:nth-child(5) {
+      animation-delay: 0.8s;
+    }
+    
+    @keyframes twinkle {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+      }
+    }
+    
